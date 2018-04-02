@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.ac.astra.polman.navogationapplication.HomeFragment"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/download" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnjss"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnjss" />
+
+        <Button
+            android:id="@+id/btnqa"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnjss"
+            android:text="@string/btnqa" />
+
+        <Button
+            android:id="@+id/btnpart"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnqa"
+            android:text="@string/btnpart" />
+
+        <Button
+            android:id="@+id/btntrouble"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnpart"
+            android:text="@string/btntrouble" />
+    </LinearLayout>
+
+</LinearLayout>
